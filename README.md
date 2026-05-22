@@ -2,8 +2,6 @@
 
 We have successfully constructed, executed, and tuned the **12-step Logistic Regression pipeline** for predicting NBA rookie career longevity (`5Yrs` $\ge 5$ years).
 
-The script is available in the workspace: [nba_logistic_regression.py](file:///c:/Users/Kevin%20Sukias/Documents/InshaAllah%20my%20projects/NBA%20Machine%20Learning/nba_logistic_regression.py).
-
 ---
 
 ## 1. Model Performance & Comparison
@@ -29,20 +27,14 @@ We generated and saved three visual reports directly in the directory. You can v
 ### A. Confusion Matrix Comparison
 The tuned model shows an increase in True Negatives (correctly identifying players who won't last 5 years) and True Positives, boosting overall accuracy.
 
-![Confusion Matrix Comparison](C:\Users\Kevin Sukias\.gemini\antigravity\brain\b8ca884c-2291-4dbc-94e5-3cd3ad641a1a\confusion_matrix.png)
-
 ### B. ROC Curves Comparison
 The ROC curves demonstrate robust model performance, with the Tuned Model showing a higher Area Under the Curve (AUC = 0.7474).
-
-![ROC Curve Comparison](C:\Users\Kevin Sukias\.gemini\antigravity\brain\b8ca884c-2291-4dbc-94e5-3cd3ad641a1a\roc_curve.png)
 
 ---
 
 ## 3. Coefficient Interpretation (Sports Analytics Insights)
 
 Each learned coefficient $w_i$ represents the change in log-odds of the player lasting 5+ years per standard deviation increase in that stat. We exponentiated these coefficients ($e^{w_i}$) to obtain **Odds Ratios (OR)**, making them highly intuitive for scouts and sports coaches:
-
-![Feature Coefficient Importance](C:\Users\Kevin Sukias\.gemini\antigravity\brain\b8ca884c-2291-4dbc-94e5-3cd3ad641a1a\feature_importance.png)
 
 ### Key Analytics Takeaways:
 
