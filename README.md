@@ -54,27 +54,8 @@ Each model extracts feature importance in a different way, providing complementa
 
 ---
 
-## 3. Visual Performance Comparison (Model Artifacts)
 
-Below is a sequential visualization of the performance curves, confusion matrices, and feature importances for both models:
-
-````carousel
-![Logistic Regression Confusion Matrix](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/Logistic Regression output image/confusion_matrix.png)
-<!-- slide -->
-![Decision Tree Confusion Matrix](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/Decision Tree Output image/dt_confusion_matrix.png)
-<!-- slide -->
-![Logistic Regression ROC Curve](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/Logistic Regression output image/roc_curve.png)
-<!-- slide -->
-![Decision Tree ROC Curve](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/Decision Tree Output image/dt_roc_curve.png)
-<!-- slide -->
-![Logistic Regression Feature Coefficients](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/Logistic Regression output image/feature_importance.png)
-<!-- slide -->
-![Decision Tree Feature Importance](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/Decision Tree Output image/dt_feature_importance.png)
-````
-
----
-
-## 4. Pipeline-Specific Breakdowns
+## 3. Pipeline-Specific Breakdowns
 
 ### Pipeline A: Logistic Regression
 - **Script**: [nba_logistic_regression.py](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/nba_logistic_regression.py)
@@ -112,7 +93,7 @@ Below is a sequential visualization of the performance curves, confusion matrice
 
 ---
 
-## 5. Verification Checklist
+## 4. Verification Checklist
 
 - [x] Preprocessed features are standardized using StandardScaler to ensure alignment for both linear and non-linear calculations.
 - [x] Run both model scripts: [nba_logistic_regression.py] and [nba_decision_tree.py]
