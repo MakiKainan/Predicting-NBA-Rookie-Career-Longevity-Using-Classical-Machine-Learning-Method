@@ -1,8 +1,8 @@
 # NBA Rookie Career Longevity Predictor: Model Comparison & Walkthrough
 
 This document reports and compares the results of two different machine learning models trained on rookie stats to predict whether an NBA rookie's career will last $\ge 5$ years (`5Yrs` target):
-1. **Logistic Regression Classifier** (using [nba_logistic_regression.py](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/nba_logistic_regression.py))
-2. **Decision Tree Classifier** (using [nba_decision_tree.py](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/nba_decision_tree.py))
+1. **Logistic Regression Classifier** 
+2. **Decision Tree Classifier** 
 
 Both models utilize automated 12-step pipelines (from raw data loading and preprocessing to hyperparameters tuning via Stratified 5-Fold Grid Search, evaluation, and visualization).
 
@@ -115,6 +115,6 @@ Below is a sequential visualization of the performance curves, confusion matrice
 ## 5. Verification Checklist
 
 - [x] Preprocessed features are standardized using StandardScaler to ensure alignment for both linear and non-linear calculations.
-- [x] Run both model scripts: [nba_logistic_regression.py](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/nba_logistic_regression.py) and [nba_decision_tree.py](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/nba_decision_tree.py).
-- [x] Confirm saved visual artifacts in [Logistic Regression output image](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/Logistic Regression%20output%20image/) and [Decision Tree Output image](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/Decision%20Tree%20Output%20image/).
-- [x] Verify that inference module [nba_inference.py](file:///c:/Users/Kevin Sukias/Documents/InshaAllah my projects/NBA Machine Learning/nba_inference.py) is working correctly for test samples.
+- [x] Run both model scripts: [nba_logistic_regression.py] and [nba_decision_tree.py]
+- [x] Confirm saved visual artifacts in [Logistic Regression output image]and [Decision Tree Output image]
+- [x] Verify that inference module [nba_inference.py]
