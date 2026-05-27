@@ -1,0 +1,6 @@
+{
+  "name": "Velorah Hero Section",
+  "description": "A single-page hero section built with React, Vite, TypeScript, and Tailwind CSS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
